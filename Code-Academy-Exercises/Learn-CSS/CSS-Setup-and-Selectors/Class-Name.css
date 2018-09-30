@@ -1,0 +1,12 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+
+/* CSS can also call elements by their attributes, such as their class name. An HTML class name
+is called using a period, such as .classname{}  */

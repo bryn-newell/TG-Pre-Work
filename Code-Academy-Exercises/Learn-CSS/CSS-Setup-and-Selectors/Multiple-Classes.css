@@ -1,0 +1,16 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+/* An HTML element can also have multiple classes, separated by a space. This can assist in giving
+specific sections multiple CSS styles, without needing to write a specific rule for custom combination.  */

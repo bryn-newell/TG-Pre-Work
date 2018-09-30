@@ -1,0 +1,23 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+#article-title {
+font-family: cursive;
+text-transform: capitalize;
+}
+.publish-time {
+color:gray;
+}
+
+/* Classes are meant to be used by many elements to style multiple items on your page in the same way.
+An ID is meant to only style one unique element. They should be used sparingly and only when something
+that always needs to appear the same.  */

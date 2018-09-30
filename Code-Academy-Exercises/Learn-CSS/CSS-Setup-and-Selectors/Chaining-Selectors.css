@@ -1,0 +1,29 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+
+}
+.publish-time {
+color:gray;
+}
+.cursive {
+font-family: cursive;
+}
+.capitalize {
+text-transform: capitalize;
+}
+h2.destination {
+font-family:cursive;
+}
+
+/* Multiple selectors can be chained at the same time to create a style rule for multiple elements or more
+specific elements. A tag and class can be combined as such: tag.class{}  */

@@ -1,0 +1,5 @@
+
+
+IDs can also be selected by CSS with the # symbol, such as #id {}. However a style assigned to an ID
+will overide any other styles assigned to it by class or another attribute, which can be very useful
+if an element needs to be styled specifically regardless of it's class. 

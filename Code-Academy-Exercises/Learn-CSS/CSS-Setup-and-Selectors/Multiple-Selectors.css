@@ -1,0 +1,36 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+.publish-time {
+color:gray;
+}
+.cursive {
+font-family: cursive;
+}
+.capitalize {
+text-transform: capitalize;
+}
+h2.destination {
+font-family:cursive;
+}
+.description h5 {
+color:teal;
+}
+h5{
+color:rebeccapurple !important;
+}
+h5, p {
+font-family:Georgia;
+}
+
+/* It's also possible to assign a style to multiple CSS selectors at the same time. The selectors
+are separated by a comma in this case to apply the style to both.  */

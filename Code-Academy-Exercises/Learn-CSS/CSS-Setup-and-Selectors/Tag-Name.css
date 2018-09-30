@@ -1,0 +1,13 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+
+}
+
+/* CSS selects elements to manipulate by calling the tag name from the HTML document, such as <p> or <h1>.
+A CSS selector is written as such and any properties go inside the curly braces:
+p {
+
+  } */

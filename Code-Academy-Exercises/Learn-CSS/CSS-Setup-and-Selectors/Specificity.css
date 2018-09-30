@@ -1,0 +1,27 @@
+p {
+    font-family: Arial;
+  }
+h1 {
+color:maroon;
+}
+.title {
+color: teal;
+}
+.uppercase {
+text-transform: uppercase;
+}
+
+}
+.publish-time {
+color:gray;
+}
+.cursive {
+font-family: cursive;
+}
+.capitalize {
+text-transform: capitalize;
+}
+
+/* Specificity is the order in which the browser will display CSS styles. Common practice is to style elements
+using the lowest degree of specificity so it can be overridden easily if necessary. Order of specificity
+goes: ID, class, then tag.  */
