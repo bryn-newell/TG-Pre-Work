@@ -1,0 +1,4 @@
+/* The @font-face property is a way to link non-user fonts to the CSS document without having to add a link
+in the HTML document. Enter the font's link from the directory into the browser's URL bar. This will
+bring up a page of CSS rules and the latin ones need to be focused on. Copy each of the latin rules
+and paste them to the top of style.css.  */

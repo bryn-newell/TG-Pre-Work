@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: 40% 50% 50px/ 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+The grid-template property defines both the rows and columns in one rule. Any values before the slash /
+are each row and after the slash are each column.

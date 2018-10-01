@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template-columns: 100px 50% 200px;
+  grid-template-rows: 40% 50% 50px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* The grid-template-rows property defines the number of rows in the grid explicitly. It is almost identical
+to the grid-template.columns property. By default the rows are sized to fit evenly inside the grid.  */

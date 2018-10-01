@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* The grid-template property can also accept a function as a value such as repeat(). repeat() will duplicate
+the same specifications the given number of times. The first parameter of repeate is the amount of times
+the function will duplicate. The second parameter can have multiple values for sizing.  */
