@@ -1,0 +1,4 @@
+/* Vertical margins collapse, while horizontal margins do not. This means that the total value of
+horizontal margins of elements next to each other, will be the total distance between the two elements.
+While elements and that are stacked on top of each other, will be as far apart as the larger
+of the two vertical margins.  */

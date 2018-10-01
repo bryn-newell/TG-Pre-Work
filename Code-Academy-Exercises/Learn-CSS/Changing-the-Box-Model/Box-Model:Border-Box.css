@@ -1,0 +1,3 @@
+/* The border-box value is another model that can be used which avoids the dimensional issues of the
+content box. The height and width remain fixed in this model and the padding and border will be included
+inside the box.  */

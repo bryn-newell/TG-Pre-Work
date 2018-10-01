@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: rgba(0,255,0,0.1);
+}
+
+.midground {
+  background-color: hsla(225, 100%, 25%, 0.4);
+}
+
+.foreground {
+  background-color: hsla(325, 50%, 50%, 0.6);
+}
+
+
+
+/* Opacity, or transparency, can also be defined so that if elements are overlapping some of the color
+of the overlapping elements will come through. Opacity is added in the hsl color scheme by using hsla and
+defining four values. The last value is the alpha value which is a decimal between 0 and 1. 0 is completely
+transparent and 1 is fully opaque. The alpha value can also be defined in rgba with four values. Alpha
+values can not be used with color naming or hex values. There is also a keyword for 0 opacity which is
+transparent.  */
