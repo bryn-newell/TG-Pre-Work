@@ -1,0 +1,5 @@
+/* Defining the number of rows and columns of a grid is called an explicit grid. An implicit grid
+has an algorithm built into the specification for CSS grid that determines the default behavior for the
+the placement of elements when there are more that fit into the grid that was defined explicitly.
+The default behavior is that items fill up rows then add new rows when necessary and are only as tall as
+the content requires them to be.  */
