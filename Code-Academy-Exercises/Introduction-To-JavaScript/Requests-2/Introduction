@@ -1,0 +1,7 @@
+In ES6 promises were added. A promise is an object that handles asynchronous data. A promise has three states:
+
+pending : when a promise is created or waiting for data.
+fulfilled : the asynchronous operation was handled successfully.
+rejected : the asynchronous operation was unsuccessful.
+
+Once a promise is fulfilled or rejected, you can chain an additional method to the original promise
